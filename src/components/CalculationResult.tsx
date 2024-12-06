@@ -15,15 +15,15 @@ export const CalculationResultDisplay: React.FC<CalculationResultProps> = ({ res
         <h3 className="text-xl font-bold mb-4">Valor de tus Bitcoin</h3>
         <div className="space-y-2">
           <p className="flex justify-between">
-            <span className="text-gray-400">Precio Promedio Histórico:</span>
+            <span className="text-gray-400">Precio Promedio en fecha seleccionada:</span>
             <span className="font-semibold">{formatPrice(result.historicalPrice)} por BTC</span>
           </p>
           <p className="flex justify-between">
-            <span className="text-gray-400">Valor cuando Vendiste:</span>
+            <span className="text-gray-400">Tenias:</span>
             <span className="font-semibold">{formatPrice(result.soldValue)}</span>
           </p>
           <p className="flex justify-between">
-            <span className="text-gray-400">Valor Actual:</span>
+            <span className="text-gray-400">Hoy tendrias:</span>
             <span className="font-semibold">{formatPrice(result.currentValue)}</span>
           </p>
           <div className="border-t border-gray-700 my-2"></div>
