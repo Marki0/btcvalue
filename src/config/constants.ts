@@ -10,7 +10,7 @@ export const PURCHASE_EXAMPLES = [
   { name: 'Auto 0Km', price: 20000, icon: '🚗' },
   { name: 'Depto en Palermo', price: 90000, icon: '🏠' },
   { name: 'Vacaciones a Miami', price: 2000, icon: '✈️' },
-  { name: 'Big Mac', price: 5, icon: '🍔' },
+  { name: 'Big Mac', price: 4, icon: '🍔' },
   { name: 'Combo Sasha Ferro', price: 5000, icon: '⛵' },
-  { name: 'Cafe Starbucks', price: 50, icon: '☕' }
+  { name: 'Cafe Starbucks', price: 3, icon: '☕' }
 ] as const;
