@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Bitcoin } from 'lucide-react';
 import { CalculatorForm } from './components/CalculatorForm';
 import { CalculationResultDisplay } from './components/CalculationResult';
@@ -38,9 +38,9 @@ function App() {
           <div className="flex justify-center mb-4">
             <Bitcoin className="w-16 h-16 text-yellow-500" />
           </div>
-          <h1 className="text-3xl font-bold mb-2">Calculadora de Arrepentimiento Bitcoin</h1>
+          <h1 className="text-3xl font-bold mb-2">Bitcoin Checki</h1>
           <p className="text-gray-400">
-            Calcula cuánto valdría tu Bitcoin hoy
+            Calcula cuánto valdría tu Bitcoin hoy y que podrias comprar!
           </p>
         </div>
 
@@ -60,6 +60,18 @@ function App() {
           </div>
         )}
       </div>
+      <footer className="mt-8 text-center text-gray-400 text-sm">
+        <p>
+          Desarrollado por <a 
+            href="https://www.linkedin.com/in/marcossmino/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            Marki
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
